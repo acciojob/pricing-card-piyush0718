@@ -1,16 +1,76 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Pricing Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .card {
+      width: 300px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      border-radius: 10px;
+	  
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .card h1 {
+      font-size: 24px;
+      margin: 15px 0 10px;
+    }
+
+    .card p {
+      margin: 8px 0;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .card button {
+      padding: 10px 20px;
+      background-color: #e53935;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 15px;
+    }
+
+    .card button:hover {
+      background-color: #d32f2f;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <main>
+    <div class="card">
+      <img src="https://rukminim2.flixcart.com/image/480/480/kyrlifk0/card/t/j/o/1-co-cm08gbgt50590-greeting-giftcart-original-imagaxe9xybh9ckz.jpeg?q=90" alt="Heart-shaped tree">
+      <h1>Pricing Card</h1>
+      <p><strong>Price:</strong> Rs.200</p>
+      <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <button>Buy Now</button>
+    </div>
+  </main>
 </body>
-
 </html>
